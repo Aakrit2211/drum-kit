@@ -4,7 +4,7 @@ html{
   color: antiquewhite;
 }
 .key-container{
-  padding-top: 70px;
+  padding-top: 50px;
   display: flex;
   gap: 40px;
   flex-wrap: wrap; 
