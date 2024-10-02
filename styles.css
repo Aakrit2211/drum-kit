@@ -1,0 +1,44 @@
+html{
+  text-align: center;
+  background-color: #00235B;
+  color: antiquewhite;
+}
+.key-container{
+  padding-top: 70px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+}
+.key{
+  position: relative;
+  background-color: aliceblue;
+  border: 10px solid #666f83;
+  height: 100px;
+  width: 100px;
+  color: black;
+  border-radius: 20px;
+}
+.key img{
+ height: 100%;
+ width: 100%; 
+}
+.key span{
+  display: inline-block;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+ color:rgb(2, 2, 2) ;
+ font-weight: bolder;
+ font-size: 2rem;
+ text-shadow: 2px 2px 4px rgba(4, 255, 63, 0.9);
+}
+.header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  margin-top: 100px;
+}
